@@ -2,7 +2,7 @@ import java.util.Random;
 
 public class Board {
 
-    private String[][] board= new String[3][3];
+    private String[][] board = new String[3][3];
 
     public String[][] getBoard() {
         return board;

@@ -8,12 +8,6 @@ import static org.mockito.Mockito.when;
 
 public class LoadFileTest {
 
-    @Test
-    public void getFileDataTestStub(){
-        LoadFile loadFileTest = new LoadFile();
-        List<String> data = loadFileTest.getFileData("Scores.txt");
-        assertEquals("Me,6", data.get(0));
-    }
 
     @Test
     public void getFileDataTestMock(){

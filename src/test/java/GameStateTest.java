@@ -1,6 +1,11 @@
 import org.junit.Test;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.mockito.Mockito.spy;
+import static org.mockito.Mockito.when;
 
 
 public class GameStateTest {
@@ -18,8 +23,13 @@ public class GameStateTest {
         boardTest.makeBoard();
         assertEquals(gameStateTest.gameState.IN_PROGRESS, gameStateTest.calulateGameState(boardTest.getBoard(), "X"));
     }
-    /*@Test
-    public void updateLeaderBoardTest(){
-        gameStateTest.updateLeaderBoard("Derek");
-    }*/
+
+    @Test
+    public void printLeaderBoardMock(){
+        LoadFile loadFileMock = spy(LoadFile.class);
+        List<String> data = new ArrayList<>();
+        data.add("Derek,5");
+        when(loadFileMock.getFileData("Scores.txt")).thenReturn(data);
+        assertEquals("Derek,5", gameStateTest.getPlayerStats(loadFileMock.getFileData("Scores.txt"), "Derek"));
+    }
 }

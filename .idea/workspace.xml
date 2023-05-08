@@ -4,39 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c2d746a4-dab3-4c8b-904c-956c3ae8e3a1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_13_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_12_22.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_12_22.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_8_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_8_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_5_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_inline_5_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_5_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_3_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Board.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/GameState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Load.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/LoadFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WriteFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/BoardTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/GameStateTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/LoadFileTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tic-tac-toe.iml" afterDir="false" />
+    <list default="true" id="c2d746a4-dab3-4c8b-904c-956c3ae8e3a1" name="Changes" comment="most recent version of game with tests">
+      <change afterPath="$PROJECT_DIR$/src/test/java/WriteFileTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Board.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/GameState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GameState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BoardTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BoardTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/GameStateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GameStateTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/LoadFileTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LoadFileTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,42 +56,29 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.LoadFileTest.getFileDataTestMock">
-    <configuration name="GameStateTest.calculateGameStateTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.LoadFileTest.getFileDataTestStub">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="tic-tac-toe" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BoardTest.isBoardFullTestTrue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tic-tac-toe" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="GameStateTest" />
-      <option name="METHOD_NAME" value="calculateGameStateTest" />
+      <option name="MAIN_CLASS_NAME" value="BoardTest" />
+      <option name="METHOD_NAME" value="isBoardFullTestTrue" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GameStateTest.calculateGameStateTestMock" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GameStateTest.printLeaderBoardMock" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tic-tac-toe" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="GameStateTest" />
-      <option name="METHOD_NAME" value="calculateGameStateTestMock" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GameStateTest.isValidMoveTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="tic-tac-toe" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="GameStateTest" />
-      <option name="METHOD_NAME" value="isValidMoveTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LoadFileTest.getFileDataTestMock" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="tic-tac-toe" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="LoadFileTest" />
-      <option name="METHOD_NAME" value="getFileDataTestMock" />
+      <option name="METHOD_NAME" value="printLeaderBoardMock" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -131,13 +94,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WriteFileTest.writeToFileTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tic-tac-toe" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="WriteFileTest" />
+      <option name="METHOD_NAME" value="writeToFileTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.LoadFileTest.getFileDataTestMock" />
         <item itemvalue="JUnit.LoadFileTest.getFileDataTestStub" />
-        <item itemvalue="JUnit.GameStateTest.calculateGameStateTestMock" />
-        <item itemvalue="JUnit.GameStateTest.calculateGameStateTest" />
-        <item itemvalue="JUnit.GameStateTest.isValidMoveTest" />
+        <item itemvalue="JUnit.GameStateTest.printLeaderBoardMock" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.WriteFileTest.writeToFileTest" />
+        <item itemvalue="JUnit.BoardTest.isBoardFullTestTrue" />
       </list>
     </recent_temporary>
   </component>
@@ -150,6 +123,14 @@
       <option name="presentableId" value="Default" />
       <updated>1682711225720</updated>
     </task>
+    <task id="LOCAL-00001" summary="most recent version of game with tests">
+      <created>1683212336741</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1683212336741</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -162,6 +143,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="most recent version of game with tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="most recent version of game with tests" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

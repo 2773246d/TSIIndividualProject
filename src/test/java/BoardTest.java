@@ -1,7 +1,6 @@
 import org.junit.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.mockito.Mockito.*;
 
 
 public class BoardTest {
@@ -14,17 +13,17 @@ public class BoardTest {
         String testBoardRow = "|   |   |   | ";
         assertEquals(testBoardRow, boardTest.getBoardRow(0));
     }
-
     @Test
-    public void getBoardRowTestMock() {
-        Board mockBoard = spy(Board.class);
+    public void isBoardFullTestTrue(){
         boardTest.makeBoard();
-        when(mockBoard.getBoardRow(0)).thenReturn("|   |   |   | ");
-        assertEquals("|   |   |   | ", boardTest.getBoardRow(0));
+        for(int i=1;i<10;i++){
+            boardTest.insertIntoBoard(i, "X");
+        }
+        assertEquals(true, boardTest.isBoardFull());
     }
 
     @Test
-    public void isBoardFullTest() {
+    public void isBoardFullTestFalse() {
         boardTest.makeBoard();
         assertEquals(false, boardTest.isBoardFull());
     }

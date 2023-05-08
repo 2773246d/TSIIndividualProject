@@ -5,6 +5,7 @@ public class Main {
         Board board = new Board();
         System.out.println(board.getBoard());
         GameState gameState = new GameState();
+        Load loadFile = new LoadFile();
         board.displayInstructionBoard();
         board.makeBoard();
         Scanner userInput = new Scanner(System.in);
@@ -23,13 +24,14 @@ public class Main {
                 gameState.updateLeaderBoard(username);
             }
             board.computerPlay("O");
-            if(gameState.calulateGameState(board.getBoard(), "O")== GameState.State.O_WON){
+            if(gameState.calulateGameState(board.getBoard(), "O")== GameState.State.O_WON) {
                 System.out.println("O Won");
                 gameState.gameState = GameState.State.X_WON;
                 board.displayBoard();
             }
 
         }
+        System.out.println(gameState.getPlayerStats(loadFile.getFileData("Scores.txt"), username));
 
 
 
