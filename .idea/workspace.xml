@@ -5,14 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c2d746a4-dab3-4c8b-904c-956c3ae8e3a1" name="Changes" comment="most recent version of game with tests">
-      <change afterPath="$PROJECT_DIR$/src/test/java/WriteFileTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Board.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/GameState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GameState.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/BoardTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BoardTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/GameStateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GameStateTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/LoadFileTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LoadFileTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +50,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.LoadFileTest.getFileDataTestStub">
+  <component name="RunManager" selected="JUnit.GameStateTest.getPlayerStatStub">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="tic-tac-toe" />
@@ -64,11 +58,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BoardTest.isBoardFullTestTrue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GameStateTest.getPlayerStatStub" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tic-tac-toe" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BoardTest" />
-      <option name="METHOD_NAME" value="isBoardFullTestTrue" />
+      <option name="MAIN_CLASS_NAME" value="GameStateTest" />
+      <option name="METHOD_NAME" value="getPlayerStatStub" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -106,11 +100,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.GameStateTest.getPlayerStatStub" />
         <item itemvalue="JUnit.LoadFileTest.getFileDataTestStub" />
         <item itemvalue="JUnit.GameStateTest.printLeaderBoardMock" />
         <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.WriteFileTest.writeToFileTest" />
-        <item itemvalue="JUnit.BoardTest.isBoardFullTestTrue" />
       </list>
     </recent_temporary>
   </component>
@@ -130,7 +124,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683212336741</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="most recent version of game with tests">
+      <created>1683543647457</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1683543647457</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

@@ -25,11 +25,20 @@ public class GameStateTest {
     }
 
     @Test
-    public void printLeaderBoardMock(){
+    public void getPlayerStatsMock(){
         LoadFile loadFileMock = spy(LoadFile.class);
         List<String> data = new ArrayList<>();
         data.add("Derek,5");
         when(loadFileMock.getFileData("Scores.txt")).thenReturn(data);
         assertEquals("Derek,5", gameStateTest.getPlayerStats(loadFileMock.getFileData("Scores.txt"), "Derek"));
+    }
+
+    @Test
+    public void getPlayerStatStub(){
+        List<String> data = new ArrayList<>();
+        data.add("Derek,5");
+        data.add("Darren,4");
+        assertEquals("Darren,4", gameStateTest.getPlayerStats(data, "Darren"));
+
     }
 }
